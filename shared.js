@@ -41,8 +41,8 @@ const STORAGE_BUCKET = "listing-images"; // the public Storage bucket created du
 // risk to whoever it messages), but it does not hand out sellers' NRC data to
 // strangers — Telegram only pushes messages the bot receives TO your admin chat.
 // ---------------------------------------------------------------------------
-const TELEGRAM_BOT_TOKEN = ""; // e.g. "123456789:AAExampleTokenFromBotFather"
-const TELEGRAM_ADMIN_CHAT_ID = ""; // e.g. "987654321" or a group's negative chat id
+const TELEGRAM_BOT_TOKEN = "8975433341:AAFj0y3nUaT-OHGQU51PbahdTFQShCGgBjY"; // e.g. "123456789:AAExampleTokenFromBotFather"
+const TELEGRAM_ADMIN_CHAT_ID = "-1004418770567"; // e.g. "987654321" or a group's negative chat id
 
 async function notifyAdminTelegram(seller){
   if(!TELEGRAM_BOT_TOKEN || !TELEGRAM_ADMIN_CHAT_ID){
